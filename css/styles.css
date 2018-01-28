@@ -27,7 +27,11 @@ a {
 a:hover {
     color:#111;
 }
+h2 {
+    margin-top: 6%;
+    font-family: Helvetica, sans-serif;
 
+}
 .btn,.well,.panel {
     border-radius:0;
 }
@@ -174,7 +178,7 @@ section {
 }
   
 #section4 {
-	background-color: #f6f6f6;
+	background-color: #ffff;
 	color:#444;
 }
   
@@ -188,14 +192,14 @@ section {
 }
 
 #section5 {
-	background-color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
 }
 
 #section6 {
-    background-color: #eee;
-	min-height:130px;
-	padding-top:40px;
-	padding-bottom:40px;
+    background-color: #fff;
+	min-height: 75%;
+
 }
 
 #section7 {
@@ -286,7 +290,10 @@ footer .nav>li>a:hover {
     margin-top:20px;
 
 }
-
+.galdivrow2{
+    margin-top:20px;
+    background-color: #fff;
+}
 .galdiv{
     margin-top:20px;
     
@@ -314,8 +321,21 @@ hr{
 }
 .datos{
     font-size: 20px;
+    margin-top:  10%;
+    padding: 0 10% 0 10%;
 }
-
+@media (min-width:800px) {
+    
+    .servicios{
+        font-size: 20px;
+        margin-top: -0.5%;
+        padding: 0 20% 0 30%;
+    }
+    .contacto {
+        margin-top: -0.5%;        
+        margin-left: 15%;
+    }
+}
 @media(max-width:800px){
     .galdiv{
         margin:50px;
