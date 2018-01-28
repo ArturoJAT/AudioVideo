@@ -16,6 +16,7 @@ html,body {
     h1 {
         font-size:68px;
     }
+
 }
 img{
     image-orientation: from-image;
@@ -32,11 +33,11 @@ h2 {
     font-family: Helvetica, sans-serif;
 
 }
-@media (min-width:800px) {
+@media (max-width:800px) {
     h2{
-        font-size: 48px
+        font-size: 20px;
     }
-}    
+}
 .btn,.well,.panel {
     border-radius:0;
 }
